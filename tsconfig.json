@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                // Use ES2022 or higher
+    "module": "NodeNext",              // Set module to NodeNext
+    "moduleResolution": "NodeNext",    // Set module resolution to NodeNext
+    "rootDir": "./",                   // Set rootDir to where your source files are located
+    "outDir": "./dist",                // Output directory for compiled files
+    "strict": true,                    // Strict type-checking options
+    "esModuleInterop": true,           // Enable compatibility with CommonJS
+    "skipLibCheck": true,              // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforces consistent casing in imports
+    "baseUrl": ".",                   // Set base URL for module resolution
+    "paths": {
+      "*": ["node_modules/*", "*"]    // Helps with resolving modules
+    }
+  },
+  "include": ["*.ts"],                // Adjust this pattern to match your source files
+  "exclude": ["node_modules"]         // Exclude node_modules from compilation
+}
