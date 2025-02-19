@@ -21,7 +21,7 @@ async function main () {
     // Transaction signature returned from sent transaction
     let transactionSignature: string;
     const tokenMintAddress = '4brw3G9A6JTiaQLoPNDwQTuF3Hkj8KmfGMzeBsiBqYyv';
-    const sourceWalletForFee = 'aW6TpCCnm1V7kkufPniPcYJs8Cn1xoMpg5z97jGTjLs';
+    const sourceWalletForFee = 'AziR2WVaX8rgceQmPTTd7AwS7Z1NaP62XUedarAUXeC6';
     // Address for Mint Account
     const mint = new PublicKey(tokenMintAddress);
     const withdrawWithheldAuthority = payer;
