@@ -28,10 +28,10 @@ npx ts-node withdraw.ts
 
 ### 4. Please transfer some token to other wallet.
    You can check the balances of source wallet and destination wallet.
-   If you send 2000 tokens to destination wallet,
+   If you send 2000 tokens to destination wallet.
 ``` bash
-      				                before        after
-    source wallet balance        	  X          X-2000
+                                    before        after
+    source wallet balance             X          X-2000
     destination wallet balance        Y          Y+1970
     Tax (Fee 1.5%)                                 30
 ```
