@@ -36,8 +36,8 @@ npx ts-node withdraw.ts
     Tax (Fee 1.5%)                                 30
 ```
 ### 5. Please run withdraw.ts file with "npx ts-node withdraw.ts"
-``` bash
    You can withdraw all tax tokens about your token account.
+``` bash
                                   before        after
     source wallet balance         X-2000      X-2000+30  
 ```
